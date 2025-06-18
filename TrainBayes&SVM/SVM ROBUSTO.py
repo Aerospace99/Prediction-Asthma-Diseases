@@ -3,19 +3,8 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, f1_score, ConfusionMatrixDisplay
-import seaborn as sns
-import matplotlib.pyplot as plt
-from collections import Counter 
 from imblearn.over_sampling import SMOTE
-import pandas as pd
-from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.feature_selection import SelectKBest, f_classif
-from sklearn.svm import SVC
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_score, recall_score, f1_score
-from imblearn.over_sampling import ADASYN
-from collections import Counter as ctr
-import seaborn as sns
 import matplotlib.pyplot as plt
 
 def preprocess(df):
